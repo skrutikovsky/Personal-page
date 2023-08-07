@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -27,20 +27,24 @@
     <title>React App</title>
   </head>
   <body>
+  <div class="side-line">
+
+  </div>
+  <div class="main-part">
+    <header>
+      <div class="logo">
+        <span>Frontend</span>
+        <span>React</span>
+        <span>Developer</span>
+      </div>
+      <div class="contacts">
+        <a href="https://t.me/skrutikovsky"><img src="img/icons/tg%20icon.png" alt="th"/></a>
+        <a href="mailto:skrutikovsky@yandex.ru"><img src="img/icons/mail%20icon.png" alt="email"/></a>
+        <a href="https://clck.ru/35BLVP"><img src="img/icons/hh%20icon.png" alt="hh"/></a>
+        <a href="https://github.com/skrutikovsky"><img src="img/icons/git%20icon.png" alt="github"/></a>
+      </div>
+    </header>
     <main>
-      <header>
-        <div class="logo">
-          <span>Frontend</span>
-          <span>React</span>
-          <span>Developer</span>
-        </div>
-        <div class="contacts">
-          <a href="https://t.me/skrutikovsky"><img src="img/icons/tg%20icon.png" alt="th"/></a>
-          <a href="mailto:skrutikovsky@yandex.ru"><img src="img/icons/mail%20icon.png" alt="email"/></a>
-          <a href="https://clck.ru/35BLVP"><img src="img/icons/hh%20icon.png" alt="hh"/></a>
-          <a href="https://github.com/skrutikovsky"><img src="img/icons/git%20icon.png" alt="github"/></a>
-        </div>
-      </header>
         <div class="delimiter">
           <div class="drawing">
             <div class="line orange"></div>
@@ -53,12 +57,12 @@
           </div>
         </div>
         <section class="about">
-          <div class="name">Крутиков Дмитрий</div>
-          <div class="avatar">
-            <div class="border">
-              <img  src="img/border.png" alt="ramka"/>
+          <div class="collage">
+            <div class="side-text">Крутиков Дмитрий</div>
+            <div class="avatar">
+                <img  src="img/avatar+border.png" alt="avatar"/>
             </div>
-            <img class="photo" src="img/аватар.jpg" alt="avatar"/>
+            <div class="side-text">Frontend developer</div>
           </div>
           <div class="line orange" style="width: 50%"></div>
           <div class="description">Я студент 4 курса УрФУ. В течение всего процесса обучения пробовал себя в различных сферах разработки ПО и больше всего по душе пришелся Front-end. Мой аналитический склад ума и творческая натура позволили мне быстро освоить базовые концепции данного направления и преуспеть в разработке учебных и коммерческих проектов. Учеба практически полностью удаленная и никак не мешает мне работать даже по полному рабочему графику 5/2</div>
@@ -79,67 +83,68 @@
         </div>
 
         <section class="skill-list">
-          <div  class="skill">
-            <span>JavaScript</span>
-            <div class="graduate">
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange" ></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item grey" ></div>
-              <div class="grad-item grey"></div>
+          <div class="skills-part">
+            <div  class="skill">
+              <span>JavaScript</span>
+              <div class="graduate">
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange" ></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+              </div>
             </div>
-          </div>
-          <div  class="skill">
-            <span>TypeScript</span>
-            <div class="graduate">
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange" ></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item grey"></div>
-              <div class="grad-item grey"></div>
+            <div  class="skill">
+              <span>TypeScript</span>
+              <div class="graduate">
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange" ></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+              </div>
             </div>
-          </div>
-          <div  class="skill">
-            <span>React</span>
-            <div class="graduate">
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange" ></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
+            <div  class="skill">
+              <span>React</span>
+              <div class="graduate">
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange" ></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+              </div>
             </div>
-          </div>
-          <div  class="skill">
-            <span>HTML|CSS</span>
-            <div class="graduate">
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange" ></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item grey"></div>
-              <div class="grad-item grey"></div>
+            <div  class="skill">
+              <span>HTML|CSS</span>
+              <div class="graduate">
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange" ></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+              </div>
             </div>
-          </div>
-          <div  class="skill">
+            <div  class="skill">
             <span>SCSS|SASS</span>
             <div class="graduate">
               <div class="grad-item orange"></div>
@@ -154,67 +159,69 @@
               <div class="grad-item grey"></div>
             </div>
           </div>
-          <div  class="skill">
-            <span>Photoshop</span>
-            <div class="graduate">
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange" ></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-            </div>
           </div>
-          <div  class="skill">
-            <span>Figma</span>
-            <div class="graduate">
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange" ></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item grey"></div>
-              <div class="grad-item grey"></div>
-              <div class="grad-item grey"></div>
+          <div class="skills-part">
+            <div  class="skill">
+              <span>Photoshop</span>
+              <div class="graduate">
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange" ></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+              </div>
             </div>
-          </div>
-          <div  class="skill">
-            <span>Git</span>
-            <div class="graduate">
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange" ></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item grey"></div>
-              <div class="grad-item grey"></div>
+            <div  class="skill">
+              <span>Figma</span>
+              <div class="graduate">
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange" ></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+              </div>
             </div>
-          </div>
-          <div  class="skill">
-            <span>Redux</span>
-            <div class="graduate">
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange" ></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item orange"></div>
-              <div class="grad-item grey"></div>
-              <div class="grad-item grey"></div>
-              <div class="grad-item grey"></div>
-              <div class="grad-item grey"></div>
+            <div  class="skill">
+              <span>Git</span>
+              <div class="graduate">
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange" ></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+              </div>
             </div>
-          </div>
-          <div  class="skill">
+            <div  class="skill">
+              <span>Redux</span>
+              <div class="graduate">
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange" ></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item orange"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+                <div class="grad-item grey"></div>
+              </div>
+            </div>
+            <div  class="skill">
             <span>MobX</span>
             <div class="graduate">
               <div class="grad-item orange"></div>
@@ -228,6 +235,7 @@
               <div class="grad-item orange"></div>
               <div class="grad-item grey"></div>
             </div>
+          </div>
           </div>
         </section>
         <div class="delimiter">
@@ -256,6 +264,7 @@
           </div>
         </section>
     </main>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
