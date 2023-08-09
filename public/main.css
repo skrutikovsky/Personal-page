@@ -273,7 +273,6 @@ header{
 }
 }
 @media (max-width: 1199.8px) {
-
     body{
         background: #444 url("img/icons/triangle top back.png") ;
         background-size: 800px 800px;
@@ -282,7 +281,6 @@ header{
         flex-direction: column;
         align-items: center;
     }
-
     main{
         width: 100%;
         max-width: 2000px;
@@ -306,14 +304,14 @@ header{
         width: 40%;
         display: flex;
         flex-direction: column;
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 50px;
+        line-height: 50px;
     }
     .logo span:nth-child(2){
-        margin-left: 150px;
+        margin-left: 110px;
     }
     .logo span:nth-child(3){
-        margin-left: 270px;
+        margin-left: 220px;
     }
     .contacts{
         display: flex;
@@ -329,8 +327,8 @@ header{
     .delimiter{
         display: flex;
         flex-direction: column;
-        margin-top: 90px;
-        margin-bottom: 90px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
     .delimiter h2{
         font-size: 40px;
@@ -364,7 +362,7 @@ header{
     }
     .about{
         display: flex;
-        margin-right: 0;
+        margin-top: 100px;
         flex-direction: column;
         align-items: center;
     }
@@ -429,7 +427,7 @@ header{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin: -30px auto;
+        margin: 0 auto;
     }
     .skills-part{
         display: flex;
@@ -490,7 +488,6 @@ header{
         height: 80%;
     }
     .projects-list{
-        max-width: 700px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -498,19 +495,16 @@ header{
         align-items: center;
         justify-content: center;
         align-self: center;
-        margin-bottom: -80px;
     }
     .project{
-        width: 300px;
-        height: 200px;
+        width: 40%;
+        height: 1%;
         font-size: 20px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 100px;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin: 20px;
     }
     .project img{
         border-radius: 0 0 20px 20px;
