@@ -668,15 +668,21 @@ header{
         width: 40%;
         display: flex;
         flex-direction: column;
-        font-size: 35px;
-        line-height: 60px;
+        font-size: 28px;
+        line-height: 40px;
 
     }
     .logo span:nth-child(2){
-        margin-left: 70px;
+        margin-left: 55px;
     }
     .logo span:nth-child(3){
-        margin-left: 140px;
+        margin-left: 110px;
+    }
+    header{
+        margin-bottom: -65px;
+    }
+    main{
+        padding: 30px 30px;
     }
     .side-line{
         margin-left: 10px;
@@ -691,7 +697,10 @@ header{
         font-size: 30px;
     }
     .about{
-        margin-right: 0;
+        margin: 0;
+    }
+    .collage{
+        margin-bottom: 30px;
     }
     .description{
         font-size: 14px;
@@ -713,8 +722,7 @@ header{
         flex-wrap: wrap;
         justify-content: space-evenly;
         max-width: 1500px;
-        margin-right: auto;
-        margin-left: auto;
+        margin: 0 auto;
     }
     .skills-part{
         display: flex;
@@ -729,6 +737,9 @@ header{
     }
     .skill span{
         width: 120px;
+    }
+    .delimiter{
+        margin: 40px 0;
     }
     .delimiter h2{
         font-size: 30px;
@@ -756,7 +767,8 @@ header{
         margin: 0;
     }
     .contacts-list{
-        width: 350px;
+        width: 300px;
+        margin-bottom: 0;
     }
     .contact-item{
         width: 60px;
@@ -764,12 +776,6 @@ header{
     }
     .main-part{
         justify-content: space-between;
-    }
-    .delimiter{
-        display: flex;
-        flex-direction: column;
-        margin-top: 70px;
-        margin-bottom: 70px;
     }
     .drawing{
         display: flex;
@@ -780,17 +786,28 @@ header{
         width: 85%;
         height: 5px;
     }
-
     .project{
-        width: 350px;
-        margin-bottom: 90px;
-        margin-top: 70px;
+        margin: 10px;
+        height: 1%;
+        width: 100%;
+        max-width: 400px;
+    }
+    .project-name{
+        font-size: 24px;
+    }
+    .projects-list{
+        margin: 0;
+        box-sizing: content-box;
     }
     .mark{
         font-size: 17px;
     }
-    .project-name{
-        font-size: 34px;
+    .line{
+        height: 4px;
+    }
+    .point{
+        height: 10px;
+        width: 10px;
     }
 }
 @media (max-width: 399.9px) {
