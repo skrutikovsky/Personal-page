@@ -4,7 +4,6 @@ html, body {
     height: 100%;
 }
 @media (min-width: 1200px) {
-
 body{
     background: #444 url("img/icons/triangle top back.png") ;
     box-sizing: border-box;
@@ -62,8 +61,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .delimiter h2{
     font-size: 40px;
@@ -111,7 +110,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .side-text{
     width: 430px;
@@ -225,6 +224,7 @@ header{
     height: 80%;
 }
 .projects-list{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -233,15 +233,14 @@ header{
     align-self: center;
 }
 .project{
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: 1%;
     font-size: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 10px;
 }
 .project img{
     border-radius: 0 0 20px 20px;
