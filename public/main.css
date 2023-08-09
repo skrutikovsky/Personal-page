@@ -9,7 +9,6 @@ body{
     box-sizing: border-box;
     background-size: 800px 800px;
     display: flex;
-    padding-left: 40px;
     flex-direction: column;
     align-items: center;
 }
@@ -270,13 +269,21 @@ header{
     text-align: center;
     border-radius: 10px 10px 0 0;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #1f1f1f;
+    border-radius: 40px 40px 0 0;
+    padding: 0 50px;
+    box-sizing: border-box;
 }
-@media (max-width: 1199.8px) {
+}
+@media (max-width: 1200px) {
     body{
         background: #444 url("img/icons/triangle top back.png") ;
         background-size: 800px 800px;
         display: flex;
-        padding-left: 40px;
         flex-direction: column;
         align-items: center;
     }
@@ -533,10 +540,17 @@ header{
         text-align: center;
         border-radius: 10px 10px 0 0;
     }
-}
-@media (max-width: 899.9px) {
-    body{
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background: #1f1f1f;
+        border-radius: 40px 40px 0 0;
+        padding: 0 50px;
+        box-sizing: border-box;
     }
+}
+@media (max-width: 900px) {
     .line{
         width: 90%;
         height: 5px;
@@ -563,9 +577,6 @@ header{
     }
     header{
         margin-bottom: -70px;
-    }
-    main{
-        padding: 40px 35px;
     }
     .collage{
         width: 100%;
@@ -692,9 +703,6 @@ header{
     header{
         margin-bottom: -65px;
     }
-    main{
-        padding: 30px 30px;
-    }
     .side-line{
         margin-left: 10px;
         padding: 3px;
@@ -785,7 +793,6 @@ header{
     }
     .contacts-list{
         width: 300px;
-        margin-bottom: 0;
     }
     .contact-item{
         width: 60px;
@@ -826,11 +833,12 @@ header{
         height: 10px;
         width: 10px;
     }
+    footer{
+        border-radius: 15px 15px 0 0;
+    }
 }
 @media (max-width: 399.9px) {
-    body{
-        padding-left: 20px;
-    }
+
     .logo{
         font-size: 20px;
     }
@@ -864,10 +872,6 @@ header{
     }
     header{
         margin-bottom: -40px;
-    }
-    main{
-        border-left: 3px solid black;
-        padding: 40px 20px 20px;
     }
     .point{
         width: 8px;
@@ -935,6 +939,8 @@ header{
     }
     .contacts-list{
         max-width: 200px;
+        margin-bottom: 10px;
+        margin-top: -20px;
     }
     .contact-item{
         width: 40px;
