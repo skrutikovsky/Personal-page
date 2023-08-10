@@ -284,6 +284,57 @@ footer{
     box-sizing: border-box;
     max-width: 2000px;
 }
+.work{
+    display: flex;
+    justify-content: space-evenly;
+}
+.work-item{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+.stats{
+    font-size: 30px;
+    height: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    gap: 10px;
+}
+.stats span:nth-child(1) {
+    width: 250px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    background: #444444;
+    border: 4px solid #DB4F00;
+}
+.stats span:nth-child(2){
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+.technologies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.technologies span{
+    font-size: 28px;
+    color: white;
+    background: #444444;
+    border: 4px solid #DB4F00;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    width: 180px;
+}
 }
 @media (max-width: 1200px) {
     body{
@@ -561,6 +612,57 @@ footer{
         box-sizing: border-box;
         max-width: 2000px;
     }
+    .work{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .work-item{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        align-items: center;
+    }
+    .stats{
+        font-size: 26px;
+        height: 50px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        gap: 10px;
+    }
+    .stats span:nth-child(1) {
+        width: 180px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+        background: #444444;
+        border: 4px solid #DB4F00;
+    }
+    .stats span:nth-child(2){
+        width: 120px;
+        height: 60px;
+        border-radius: 10px;
+        text-align: center;
+        background: black;
+        color: white;
+    }
+    .technologies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .technologies span{
+        font-size: 24px;
+        color: white;
+        background: #444444;
+        border: 4px solid #DB4F00;
+        margin: 5px;
+        border-radius: 20px;
+        text-align: center;
+        width: 140px;
+    }
 }
 @media (max-width: 900px) {
     .line{
@@ -691,6 +793,29 @@ footer{
     }
     .mark{
         font-size: 18px;
+    }
+    .stats{
+        font-size: 20px;
+        height: 40px;
+        margin-bottom: 40px;
+        gap: 10px;
+    }
+    .stats span:nth-child(1) {
+        width: 140px;
+        font-size: 24px;
+    }
+    .stats span:nth-child(2){
+        width: 120px;
+        height: 60px;
+        border-radius: 10px;
+        text-align: center;
+        background: black;
+        color: white;
+    }
+    .technologies span{
+        font-size: 18px;
+        border-radius: 20px;
+        width: 120px;
     }
 }
 @media (max-width: 629.9px) {
@@ -847,6 +972,32 @@ footer{
     footer{
         border-radius: 15px 15px 0 0;
     }
+    .work{
+        justify-content: space-between;
+    }
+    .stats{
+        font-size: 16px;
+        height: 40px;
+        margin-bottom: 25px;
+        gap: 10px;
+    }
+    .stats span:nth-child(1) {
+        width: 100px;
+        font-size: 18px;
+    }
+    .stats span:nth-child(2){
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        text-align: center;
+        background: black;
+        color: white;
+    }
+    .technologies span{
+        font-size: 14px;
+        border-radius: 20px;
+        width: 80px;
+    }
 }
 @media (max-width: 399.9px) {
     .logo{
@@ -955,5 +1106,31 @@ footer{
     .contact-item{
         width: 40px;
         height: 40px;
+    }
+    .work{
+        justify-content: space-between;
+    }
+    .stats{
+        font-size: 12px;
+        height: 40px;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .stats span:nth-child(1) {
+        width: 70px;
+        font-size: 14px;
+    }
+    .stats span:nth-child(2){
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        text-align: center;
+        background: black;
+        color: white;
+    }
+    .technologies span{
+        font-size: 12px;
+        border-radius: 20px;
+        width: 70px;
     }
 }
