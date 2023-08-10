@@ -15,7 +15,6 @@ body{
 main{
     width: 100%;
     max-width: 2000px;
-    border-left: 5px solid black;
     margin-bottom: 50px;
     padding: 80px 50px 0;
     box-sizing: border-box;
@@ -38,6 +37,7 @@ header{
     font-size: 60px;
     line-height: 60px;
     padding-top: 20px;
+    padding-left: 20px;
 }
 .logo span:nth-child(2){
     margin-left: 150px;
@@ -149,11 +149,16 @@ header{
 .description{
     position: relative;
     font-size: 26px;
-    color: white;
+    font-weight: 600;
+    color: black;
     text-align: center;
     width: 800px;
     margin-bottom: 20px;
     margin-top: 20px;
+    background: white;
+    border: 15px solid #DB4F00;
+    border-radius: 35px;
+    padding: 15px;
 }
 .skill-list {
     display: flex;
@@ -277,6 +282,7 @@ footer{
     border-radius: 40px 40px 0 0;
     padding: 0 50px;
     box-sizing: border-box;
+    max-width: 2000px;
 }
 }
 @media (max-width: 1200px) {
@@ -290,7 +296,6 @@ footer{
     main{
         width: 100%;
         max-width: 2000px;
-        border-left: 5px solid black;
         margin-bottom: 50px;
         padding: 80px 50px 0;
         box-sizing: border-box;
@@ -312,6 +317,7 @@ footer{
         flex-direction: column;
         font-size: 50px;
         line-height: 50px;
+        padding-left: 20px;
     }
     .logo span:nth-child(2){
         margin-left: 110px;
@@ -423,11 +429,16 @@ footer{
     .description{
         position: relative;
         font-size: 26px;
-        color: white;
+        font-weight: 600;
+        color: black;
         text-align: center;
         width: 800px;
         margin-bottom: 20px;
         margin-top: 20px;
+        background: white;
+        border: 15px solid #DB4F00;
+        border-radius: 35px;
+        padding: 15px;
     }
     .skill-list {
         display: flex;
@@ -548,6 +559,7 @@ footer{
         border-radius: 40px 40px 0 0;
         padding: 0 50px;
         box-sizing: border-box;
+        max-width: 2000px;
     }
 }
 @media (max-width: 900px) {
@@ -622,9 +634,8 @@ footer{
         object-fit: contain;
     }
     .description{
-        position: relative;
         font-size: 20px;
-        color: white;
+        color: black;
         text-align: center;
         width: 500px;
         margin-bottom: 20px;
@@ -692,7 +703,7 @@ footer{
         flex-direction: column;
         font-size: 28px;
         line-height: 40px;
-
+        padding-left: 20px;
     }
     .logo span:nth-child(2){
         margin-left: 55px;
@@ -707,9 +718,6 @@ footer{
         margin-left: 10px;
         padding: 3px;
     }
-    .logo{
-        padding: 0;
-    }
     .side-text{
         width: 300px;
         height: 60px;
@@ -723,8 +731,11 @@ footer{
     }
     .description{
         font-size: 14px;
-        width: 350px;
+        width: 330px;
         margin-right: 0;
+        padding: 10px;
+        border-radius: 20px;
+        border: 10px solid #DB4F00;
     }
     .avatar{
         width: 100%;
@@ -838,7 +849,6 @@ footer{
     }
 }
 @media (max-width: 399.9px) {
-
     .logo{
         font-size: 20px;
     }
@@ -871,7 +881,7 @@ footer{
         font-size: 22px;
     }
     header{
-        margin-bottom: -40px;
+        margin-bottom: -80px;
     }
     .point{
         width: 8px;
@@ -900,7 +910,7 @@ footer{
     }
     .description{
         font-size: 10px;
-        max-width: 300px;
+        max-width: 250px;
     }
     .about{
         margin-bottom: 0;
