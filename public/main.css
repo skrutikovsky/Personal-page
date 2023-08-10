@@ -290,7 +290,7 @@ header{
     scale: 1.1;
 }
 .project img{
-    border-radius: 0 20px 20px 20px;
+    border-radius: 0 0 20px 20px;
     border: 5px solid #DB4F00;
     object-fit: cover;
     width: 100%;
@@ -316,6 +316,10 @@ header{
     background: #DB4F00;
     text-align: center;
     border-radius: 10px 10px 0 0;
+}
+.mark a{
+    text-decoration: none;
+    color: #3f007a;
 }
 footer{
     display: flex;
@@ -637,7 +641,7 @@ footer{
         scale: 1.1;
     }
     .project img{
-        border-radius: 0 20px 20px 20px;
+        border-radius: 0 0 20px 20px;
         border: 5px solid #DB4F00;
         object-fit: cover;
         width: 100%;
@@ -663,6 +667,10 @@ footer{
         background: #DB4F00;
         text-align: center;
         border-radius: 10px 10px 0 0;
+    }
+    .mark a{
+        text-decoration: none;
+        color: #3f007a;
     }
     footer{
         display: flex;
