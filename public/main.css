@@ -3,6 +3,31 @@ html, body {
     width: 100%;
     height: 100%;
 }
+@keyframes move-left {
+    from{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 100;
+    }
+}
+@keyframes move-right {
+    from{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 100;
+    }
+}
+@keyframes slowly-hover {
+    to{
+        scale: 105%;
+    }
+}
 @media (min-width: 1200px) {
 body{
     background: #444 url("img/icons/triangle top back.png") ;
@@ -122,15 +147,23 @@ header{
     align-items: center;
     justify-content: center;
 }
+.side-text:hover{
+    background: white;
+    border: 4px solid #DB4F00;
+    box-sizing: border-box;
+}
 .side-text:nth-child(1){
     position: relative;
     right: 288px;
     top: 39px;
+    animation: move-right 0.4s linear both;
 }
 .side-text:nth-child(3){
     position: relative;
     left: 275px;
     bottom: 45px;
+    animation: move-left 0.4s linear;
+
 }
 .avatar{
     box-sizing: content-box;
@@ -145,6 +178,9 @@ header{
     max-width: 600px;
     max-height: 600px;
     object-fit: contain;
+}
+.avatar img:hover{
+    transform: scale(104%);
 }
 .description{
     position: relative;
@@ -226,6 +262,10 @@ header{
     object-fit: cover;
     width: 80%;
     height: 80%;
+
+}
+.contact-item img:hover{
+    scale: 1.3;
 }
 .projects-list{
     width: 100%;
@@ -246,8 +286,11 @@ header{
     justify-content: center;
     margin: 10px;
 }
+.project:hover{
+    scale: 1.1;
+}
 .project img{
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 20px 20px 20px;
     border: 5px solid #DB4F00;
     object-fit: cover;
     width: 100%;
@@ -334,6 +377,9 @@ footer{
     border-radius: 20px;
     text-align: center;
     width: 180px;
+}
+.technologies span:hover{
+    scale: 1.1;
 }
 }
 @media (max-width: 1200px) {
@@ -455,13 +501,20 @@ footer{
         align-items: center;
         justify-content: center;
     }
+    .side-text:hover{
+        background: white;
+        border: 4px solid #DB4F00;
+        box-sizing: border-box;
+    }
     .side-text:nth-child(1){
         align-self: start;
-        margin: 10px
+        margin: 10px;
+        animation: move-right 0.4s linear;
     }
     .side-text:nth-child(3){
         align-self: end;
         margin: 10px;
+        animation: move-left 0.4s linear;
     }
     .avatar{
         box-sizing: content-box;
@@ -469,6 +522,9 @@ footer{
         height: 100%;
         max-width: 600px;
         max-height: 600px;
+    }
+    .avatar img:hover{
+        transform: scale(104%);
     }
     .avatar img{
         width: 100%;
@@ -555,6 +611,9 @@ footer{
         width: 80%;
         height: 80%;
     }
+    .contact-item img:hover{
+        scale: 1.3;
+    }
     .projects-list{
         margin-left: auto;
         margin-right: auto;
@@ -574,8 +633,11 @@ footer{
         justify-content: center;
         margin: 20px;
     }
+    .project:hover{
+        scale: 1.1;
+    }
     .project img{
-        border-radius: 0 0 20px 20px;
+        border-radius: 0 20px 20px 20px;
         border: 5px solid #DB4F00;
         object-fit: cover;
         width: 100%;
@@ -662,6 +724,9 @@ footer{
         border-radius: 20px;
         text-align: center;
         width: 140px;
+    }
+    .technologies span:hover{
+        scale: 1.1;
     }
 }
 @media (max-width: 900px) {
