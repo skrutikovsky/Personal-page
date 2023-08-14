@@ -385,6 +385,22 @@ footer{
 .technologies span:hover{
     scale: 1.1;
 }
+.download-resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DB4F00;
+    border-radius: 25px;
+    width: 350px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.download-resume a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
 }
 @media (max-width: 1200px) {
     body{
@@ -736,6 +752,22 @@ footer{
     .technologies span:hover{
         scale: 1.1;
     }
+    .download-resume{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #DB4F00;
+        border-radius: 25px;
+        width: 350px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .download-resume a{
+        text-decoration: none;
+        color: black;
+        font-size: 40px;
+        font-weight: 600;
+    }
 }
 @media (max-width: 900px) {
     .line{
@@ -1071,6 +1103,14 @@ footer{
         border-radius: 20px;
         width: 80px;
     }
+    .download-resume{
+        border-radius: 15px;
+        width: 250px;
+        height: 60px;
+    }
+    .download-resume a{
+        font-size: 30px;
+    }
 }
 @media (max-width: 399.9px) {
     .logo{
@@ -1205,5 +1245,13 @@ footer{
         font-size: 12px;
         border-radius: 20px;
         width: 70px;
+    }
+    .download-resume{
+        border-radius: 15px;
+        width: 180px;
+        height: 45px;
+    }
+    .download-resume a{
+        font-size: 20px;
     }
 }
